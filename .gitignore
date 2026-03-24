@@ -31,3 +31,16 @@ tests/*.db
 # Environment
 .env
 .env.local
+
+# Windows batch files (development only)
+*.bat
+
+# Publish scripts (development only)
+PUBLISH-STEPS.md
+CLAWHUB-PUBLISH.md
+GITHUB-SETUP.md
+NPM-PUBLISH-GUIDE.md
+publish.sh
+
+# GitHub workflows (if not ready)
+.github/
