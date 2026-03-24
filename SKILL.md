@@ -1,5 +1,6 @@
 ---
 name: memory-v2
+version: 2.0.2
 description: |
   Advanced memory system for OpenClaw agents with priority analysis, 
   learning tracking, decision recording, and skill evolution.
