@@ -113,7 +113,7 @@ node migrations/v1-to-v2.js old-memory.db
 
 ## Version
 
-Current: 2.0.1
+Current: 2.0.2
 
 ## License
 
