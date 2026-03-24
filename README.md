@@ -1,7 +1,7 @@
 # Memory Lucia
 
 [![npm version](https://img.shields.io/npm/v/memory-lucia.svg)](https://www.npmjs.com/package/memory-lucia)
-[![GitHub](https://img.shields.io/badge/github-memory--lucia-blue.svg)](https://github.com/snowya/memory-lucia)
+[![GitHub](https://img.shields.io/badge/github-memory--lucia-blue.svg)](https://github.com/wen521/memory-lucia-)
 [![License](https://img.shields.io/npm/l/memory-lucia.svg)](LICENSE)
 
 Advanced memory system for OpenClaw agents with priority analysis, learning tracking, decision recording, and skill evolution.
@@ -99,8 +99,8 @@ SQLite backend with tables:
 ## 🔗 Links
 
 - **npm**: https://www.npmjs.com/package/memory-lucia
-- **GitHub**: https://github.com/snowya/memory-lucia
-- **Issues**: https://github.com/snowya/memory-lucia/issues
+- **GitHub**: https://github.com/wen521/memory-lucia-
+- **Issues**: https://github.com/wen521/memory-lucia-/issues
 
 ## 📋 Version
 
