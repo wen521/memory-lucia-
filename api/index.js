@@ -8,6 +8,7 @@ const LearningModule = require('../modules/learning');
 const DecisionModule = require('../modules/decision');
 const EvolutionModule = require('../modules/evolution');
 const VersionManager = require('../modules/version');
+const QueryModule = require('../modules/query');
 const MemoryDatabase = require('../database/init');
 
 class MemoryAPI {
@@ -30,10 +31,14 @@ class MemoryAPI {
             learning: new LearningModule(this.db),
             decision: new DecisionModule(this.db),
             evolution: new EvolutionModule(this.db),
-            version: new VersionManager(this.db)
+            version: new VersionManager(this.db),
+            query: new QueryModule({ dbPath: this.dbPath })
         };
 
-        console.log('✅ Memory V2.0 API initialized');
+        // Initialize query module
+        await this.modules.query.init();
+
+        console.log('✅ Memory V2.5 API initialized');
         return this;
     }
 

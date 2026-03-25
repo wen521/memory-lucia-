@@ -1,11 +1,12 @@
 ---
-name: memory-v2
-version: 2.0.4
+name: memory-lucia
+version: 2.5.0
 description: |
-  Advanced memory system for OpenClaw agents with priority analysis, 
-  learning tracking, decision recording, and skill evolution.
-  Use when: (1) Tracking learning progress and milestones, (2) Recording decisions with outcomes, 
-  (3) Analyzing message priorities, (4) Monitoring skill usage and growth.
+  Memory Lucia V2.5 - Advanced memory system with hybrid query, enhanced learning tracking,
+  autonomous decision recording, and skill evolution monitoring.
+  Use when: (1) Tracking learning progress with milestones, (2) Recording decisions with review scheduling,
+  (3) Analyzing message priorities, (4) Monitoring skill evolution with proficiency levels,
+  (5) Hybrid query with local-first + API fallback.
 ---
 
 # Memory V2 Skill
