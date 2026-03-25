@@ -1,6 +1,6 @@
 ---
 name: memory-lucia
-version: 2.5.0
+version: 2.5.1
 description: |
   Memory Lucia V2.5 - Advanced memory system with hybrid query, enhanced learning tracking,
   autonomous decision recording, and skill evolution monitoring.
