@@ -104,7 +104,7 @@ SQLite backend with tables:
 
 ## 📋 Version
 
-Current: 2.5.2
+Current: 2.5.3
 
 ## 📄 License
 

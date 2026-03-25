@@ -184,8 +184,27 @@ FROM memory_learning l
 WHERE progress_status IN ('started', 'in_progress')
 ORDER BY updated_at DESC;
 
+-- View: Weekly Learning Report
+CREATE VIEW IF NOT EXISTS v_weekly_learning_report AS
+SELECT 
+    learning_topic,
+    topic_category,
+    progress_status,
+    progress_percentage,
+    milestone_count,
+    completed_milestones,
+    updated_at,
+    CASE 
+        WHEN progress_percentage = 100 THEN 'completed'
+        WHEN progress_percentage > 0 THEN 'in_progress'
+        ELSE 'not_started'
+    END as status_label
+FROM memory_learning
+WHERE updated_at >= datetime('now', '-7 days')
+ORDER BY updated_at DESC;
+
 -- View: High Priority Items
-CREATE VIEW IF NOT EXISTS v_high_priority AS
+CREATE VIEW IF NOT EXISTS v_high_priority_messages AS
 SELECT 
     'priority' as type,
     id,
